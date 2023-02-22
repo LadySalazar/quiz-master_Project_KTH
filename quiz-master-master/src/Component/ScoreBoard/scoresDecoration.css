@@ -1,0 +1,46 @@
+
+
+  .buttonMainPage{ 
+    padding: 5px 20px;
+  }
+  
+  /* three show in the views */
+  
+  .modelScores{
+    background-color: #fff;
+    width: 500px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .tree{
+    width: 400px;
+    background-color: green;
+    height: auto;
+    position: absolute;
+    overflow: hidden;
+    left: 350px;
+    transform: translateX(50%);
+    animation: up 3s ease-out 1;
+  }
+
+  .flexParent {
+    display: flex;
+  }
+  
+  @keyframes up {
+    from { transform: translateX(50%) translateY(100%); }
+    to { transform: translateX(50%) translateY(0%) ; }
+  }
+ 
+  @media (max-width: 800px) {
+    .flexParent {
+      flex-direction: column;
+    }
+    .tree{
+      left: -100px;
+    }
+  }

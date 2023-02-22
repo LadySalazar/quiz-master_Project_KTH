@@ -1,0 +1,32 @@
+.titleMainPage {
+  font-size: 30px;
+}
+
+.designMainPage {
+  display: block;
+  position: center;
+  top: 100px;
+  margin-left: 5%;
+  margin-right: auto;
+  font-family: "Georgia", serif;
+
+}
+
+.newUser {
+  margin-left: 50px;
+}
+
+.registerDeco {
+  background-color: pink;
+  margin: auto;
+  background: url("/src/Component/User/icons8-snowman-100.png"),
+    url("/src/Component/User/icons8-jingle-bell-96.png"),
+    url("/src/Component/User/icons8-gingerbread-house-96.png"),
+    url("/src/Component/User/icons8-candy-cane-96.png");
+
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  width: 500px;
+  height: 600px;
+  background-position-x: 10px, 110px, 210px, 310px;
+  background-position-y: 100px, 100px, 100px, 100px;
+}

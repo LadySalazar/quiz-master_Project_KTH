@@ -1,0 +1,50 @@
+.centerButton {
+    padding: 15px 60px;
+    display: block;
+    position: relative;
+    top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    font-family: "Georgia", serif;
+  }
+  
+  .handleSubmit{
+    display:block;
+    padding: 15px 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    top:200px;
+    margin-top: 0.5%;
+    font-family: "Georgia", serif;
+  }
+  
+  .question {
+    font-family: "Georgia", serif;
+    font-weight: bold;
+    position: relative;
+    top:100px;
+    text-align: center;
+  
+  }
+  
+  .output {
+    margin-left:auto;
+    font-family: "Georgia", serif;
+  }
+
+  .questionNum {
+    margin: auto;
+    width: 60%;
+    top: -200px;
+    position: relative;
+    text-align: center;
+  }
+
+body{
+    margin: auto;
+
+}
+ 

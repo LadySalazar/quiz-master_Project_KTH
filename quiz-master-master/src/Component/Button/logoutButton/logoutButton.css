@@ -1,0 +1,8 @@
+.signoutButton {
+    width: 150px;
+    height: 30px;
+    margin: 40px 30px;
+    position: absolute; 
+    top:0; 
+    right:0;
+  }

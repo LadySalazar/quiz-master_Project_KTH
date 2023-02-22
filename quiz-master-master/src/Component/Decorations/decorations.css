@@ -1,0 +1,53 @@
+  /*Christmas decoration*/
+  
+  .levelOne{
+    background-color: pink;
+    margin: auto;
+    background: url("/src/Component/Decorations/icons8-christmas-gift-48.png");
+    background-repeat: no-repeat;
+    width:500px; 
+    height:600px;
+  }
+  .levelTwo{
+    background-color: pink;
+    margin: auto;
+    background: url("/src/Component/Decorations/icons8-christmas-gift-48.png"), 
+                url("/src/Component/Decorations/icons8-christmas-ball-48.png");
+    background-repeat: no-repeat, no-repeat;
+    width:500px; 
+    height:600px;
+    background-position-x: 100px, 400px;
+    background-position-y: 0px, 0px;
+  }
+  
+  .levelThree{
+    background-color: pink;
+    margin: auto;
+    background: url("/src/Component/Decorations/icons8-christmas-gift-48.png"), 
+                url("/src/Component/Decorations/icons8-christmas-ball-48.png"),
+                url("/src/Component/Decorations/icons8-christmas-sock-64.png");
+                
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    width:500px; 
+    height:600px;
+    background-position-x: 100px, 400px, 100px;
+    background-position-y: 0px, 0px, 400px;
+  
+  }
+  
+  .levelFour{
+    background-color: pink;
+    margin: auto;
+    background: url("/src/Component/Decorations/icons8-christmas-gift-48.png"), 
+                url("/src/Component/Decorations/icons8-christmas-ball-48.png"),
+                url("/src/Component/Decorations/icons8-christmas-sock-64.png"),
+                url("/src/Component/Decorations/icons8-christmas-tree-96.png");
+                
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    width:500px; 
+    height:600px;
+    background-position-x: 100px, 400px, 100px,400px;
+    background-position-y: 0px, 0px, 400px, 400px;
+  
+  
+  }
